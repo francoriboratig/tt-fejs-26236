@@ -18,3 +18,7 @@
   text-decoration: none;
   color: #ffe6a3;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
