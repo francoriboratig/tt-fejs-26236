@@ -8,21 +8,24 @@
   background-color: #243b6b;
   color: #f4d06f;
   font-weight: bold;
-}
-
-.dq3footer {
-  background-color: #1c2748;
-  color: #ead9ad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dq3nav {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20;
+  gap: 20px;
 }
 
 .dq3nav a {
   text-decoration: none;
   color: #ffe6a3;
+  font-size: 30px;
 }
 
 body {
