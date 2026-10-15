@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
-.dq3header {
-  background-color: #243b6b;
+.hwheader,
+.hwfooter {
+  background-color: #e53925;
   color: #f4d06f;
   font-weight: bold;
   display: flex;
@@ -13,7 +14,7 @@
   align-items: center;
 }
 
-.dq3nav {
+.hwnav {
   list-style: none;
   text-decoration: none;
   display: flex;
@@ -22,9 +23,9 @@
   gap: 20px;
 }
 
-.dq3nav a {
+.hwnav a {
   text-decoration: none;
-  color: #ffe6a3;
+  color: #222222;
   font-size: 30px;
 }
 
@@ -32,6 +33,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: #f3f3f3;
 }
 
 .carCardContainer {
@@ -51,6 +53,7 @@ body {
   background-color: cadetblue;
   border-radius: 16px;
   text-align: center;
+  color: #222222;
 }
 
 .carCard img {
